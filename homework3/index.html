@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KSU Student Calculator</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Add More Grades</a></li>
+        <li><a href="viewAll.php">View All Grades For All Students</a></li>
+        <li><a href="viewStudentGrades.php">View Your Grades</a></li>
+        <li><a href="average.php">View Average of All Your Grades</a></li>
+      </ul>
+    
+    <div class = "homeForm"> 
+    <div class = "title">Welcome to KSU's Student Calculator</div>
+    <br><br><br>
+    <form action="insert.php" method="post">
+        <label>Enter your Student ID:</label>
+        <input type="text" name="studentID" placeholder="Enter Student ID" id="studentID"> <br><br>
+        <label>Enter a Grade:</label>
+        <input type="text" name="grade" placeholder="Enter Grade">
+        <br><br><input type="submit" value="Done">
+    </form>
+</div>
+
+</body>
+
+</html>
